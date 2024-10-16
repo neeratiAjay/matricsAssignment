@@ -1,0 +1,239 @@
+.main-container {
+  background-color: #00161d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.top-heading {
+  font-family: 'roboto';
+  font-size: 36px;
+  font-weight: 300;
+  color: #ffffff;
+  padding-top: 100px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.ul-container {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+}
+.text-item {
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #efefe8;
+  padding-left: 20px;
+}
+.card-container-whyus {
+  width: 350px;
+  height: 474px;
+  max-width: 960px;
+  padding: 56px 12px 56px 12px;
+  background-color: #011c24;
+  align-self: center;
+  border-radius: 18px;
+  box-shadow: -12 -12 -12 -12 #63f2ff1a;
+  display: flex;
+  flex-direction: column;
+}
+.explore-heading {
+  font-family: 'roboto';
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+}
+.span-text {
+  font-family: 'roboto';
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  color: #62f0fe;
+}
+.text-para-whyus {
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.open-app-btn {
+  width: 139px;
+  height: 44px;
+  text-align: center;
+  border-radius: 12px;
+  color: #0b2a2d;
+  opacity: 0px;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 400;
+  align-self: center;
+}
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+.logo-img {
+  height: 40px;
+  width: 40px;
+}
+.title {
+  font-family: Space Grotesk;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 10px;
+}
+.ul-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 0;
+  margin: 20px;
+  list-style: none;
+  width: 100%;
+}
+.icon-image {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+.column-container-change-lg {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row-bottom-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-title-container {
+    display: none;
+  }
+  .column-container-change-lg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .card-container-whyus {
+    width: 960px;
+    height: 382px;
+    max-width: 960px;
+    padding: 56px 156px 56px 156px;
+    gap: 30px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .open-app-btn {
+    width: 139.71px;
+    height: 44px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #cdfcff;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    text-align: center;
+  }
+  .flex-row-bottom-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ul-icons-container-lg {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 20px;
+    list-style: none;
+    width: 100%;
+  }
+  .icon-image-lg {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+  }
+  .column-bottom-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-heading {
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+    color: #fff;
+  }
+  .input-cotainer {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 480px;
+    border: 1px solid #fbfaf266;
+    border-radius: 18px;
+  }
+  .logo-title-container-lg {
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+  .logo-img-lg {
+    height: 40px;
+    width: 40px;
+  }
+  .title-lg {
+    font-family: Space Grotesk;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 10px;
+  }
+  .ul-icons-container {
+    display: none;
+  }
+  .input-cotainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .placeholder {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.42px;
+    padding-left: 20px;
+    color: #efefe8;
+  }
+  .get-started-btn {
+    width: 135px;
+    height: 44px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #8bf9e803;
+    color: #ffffff;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    text-align: center;
+  }
+}

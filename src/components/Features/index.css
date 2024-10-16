@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.fetures-container {
+  background-color: #00161d;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fetures-heading {
+  font-family: 'roboto';
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 100px;
+}
+.card-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 348px;
+  padding: 24px 32px 24px 32px;
+  opacity: 0px;
+  background-color: #0c2b2fb2;
+  border: 1px solid #0c2b2fb2;
+  border-radius: 12px;
+}
+.card-img-1 {
+  height: 140px;
+  width: 140px;
+  margin: 0px;
+  align-self: center;
+}
+.card-heading {
+  font-family: 'roboto';
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 0;
+  margin: 15px;
+}
+.card-text {
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+  text-align: center;
+  color: #b0faffb2;
+}
+.card-contaner-2 {
+  height: 198px;
+  width: 350px;
+  background: #0c2b2fb2;
+  border: 1px solid #0c2b2fb2;
+  border-radius: 12px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.market-heading {
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 0;
+  margin: 15px;
+}
+.market-text {
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  color: #b0faffb2;
+}
+.card-container-3 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 474px;
+  padding: 24px 32px 24px 32px;
+  opacity: 0px;
+  background-color: #0c2b2fb2;
+  border: 1px solid #0c2b2fb2;
+  border-radius: 12px;
+}
+card-image-2 {
+  height: 320px;
+  width: 200px;
+}
+.card-image-3 {
+  height: 80px;
+  width: 80px;
+  margin: 0px;
+  padding: 0;
+  align-self: flex-end;
+}
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: transparent;
+}
+.card-container-4 {
+  height: 198px;
+  width: 350px;
+  background: #0c2b2fb2;
+  border: 1px solid #0c2b2fb2;
+  border-radius: 12px;
+  margin-top: 20px;
+  display: flex;
+  padding: 10px;
+}
+.content-container {
+  width: 5000px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+.portfolio-text {
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 10px;
+  color: #b0faffb2;
+}
+.m-bottom {
+  margin-bottom: 20px;
+}
+.feature-container-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .fetures-container {
+    display: none;
+  }
+  .feature-container-lg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00161d;
+    min-height: 90vh;
+  }
+  .flex-row-container {
+    display: flex;
+    justify-content: center;
+  }
+  .card-lg-1 {
+    width: 280px;
+    height: 504px;
+    padding: 72px 37px 32px 37px;
+    gap: 0px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 56px;
+    border-top-right-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0c2b2fb2;
+  }
+  .lg-img-1 {
+    height: 100px;
+    width: 100px;
+  }
+  .card-heading-lg {
+    font-family: 'roboto';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+  }
+  .card-text-lg {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #b0faffb2;
+    text-align: center;
+  }
+  .flex-column-container-lg {
+    display: flex;
+    flex-direction: column;
+  }
+  .column-card-1 {
+    width: 608px;
+    height: 198px;
+    padding: 32px 0px 0px 0px;
+    background-color: #0c2b2fb2;
+    border-radius: 16px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card-heading-lg-2 {
+    font-family: 'roboto';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px;
+  }
+  .card-text-lg-2 {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #b0faffb2;
+    padding: 10px;
+  }
+  .column-card-2 {
+    width: 608px;
+    height: 290px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #0c2b2fb2;
+    margin: 10px;
+    box-shadow: -10 -10 10 10 #0c2b2fb2;
+  }
+  .lg-img-2 {
+    height: 504px;
+    width: 280px;
+  }
+  .row-container-bottom-1 {
+    width: 446px;
+    height: 240px;
+    padding: 32px 0px 0px 0px;
+    margin-top: 10px;
+    border-radius: 16px 16px 16px 56px;
+    background-color: #0c2b2fb2;
+    display: flex;
+    flex-direction: column;
+  }
+  .row-container-bottom-2 {
+    width: 738px;
+    height: 240px;
+    padding: 32px 0px 0px 0px;
+    background-color: #0c2b2fb2;
+    border-radius: 16px 16px 56px 16px;
+    opacity: 0px;
+    margin: 10px;
+  }
+}
